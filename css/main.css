@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	background-color: #000;
+}
+
+a, a:link, a:active, a:visited, a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+.ldr {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('img/ajax-loader.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 111;
+}
+.bg {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 110;
+}
+.arws {
+	position: relative;
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	z-index: 99;
+	top: 50%;
+	opacity:0;
+}
+.arws .lft {
+	position: absolute;
+	left: 20px;
+	top:-22px;
+}
+.arws .rght {
+	position: absolute;
+	right: 20px;
+	top:-22px;
+}
+.arws i {
+	font-size: 50px;
+}
+
+.sec {
+	height: 100%;
+}
+
+.sec .maria {
+	background-image: url('../img/maria.jpg');
+}
+.sec .novak {
+	background-image: url('../img/novak.jpg');
+}
+.sec .ana {
+	background-image: url('../img/ana.jpg');
+}
+.sec .kei {
+	background-image: url('../img/kei.png');
+}
+.sec .porsche {
+	background-image: url(' ../img/porsche.jpg');
+}
+
+.sec .bgImg {
+	width: 100%;
+	height: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sec .lnks {
+	position: absolute;
+	text-align: center;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.5s;
+}
+.img-dragger-small .slide .lnks {
+	opacity: 0;
+}
+.sec .rght {
+	right: 22px;
+}
+.sec .lft {
+	left: 22px;
+}
+.sec .btm {
+	bottom: 22px;
+}
+.sec .tp {
+	top: 22px;
+}
+.sec .mid {
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sec .social {
+	padding-top: 10px;
+}
+.sec .logo {
+
+}
+
+.sec .logo {
+	font-size: 20px;
+}
+.sec .logo span {
+	font-size: 14px;
+}
+
+.sec .social a img {
+	width: 24px;
+}
+.sec .store {
+	margin-top: 10px;
+}
+.sec .store a {
+	position: relative;
+}
+.sec .store a img {
+	height: 35px;
+}
